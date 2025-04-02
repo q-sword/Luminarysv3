@@ -1,0 +1,1 @@
+# FastAPI entrypoint placeholder — already generated elsewhere

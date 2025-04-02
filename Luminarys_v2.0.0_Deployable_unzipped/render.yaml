@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: luminarys-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 1 -k uvicorn.workers.UvicornWorker main:app
+    plan: free
